@@ -127,6 +127,6 @@ python association.py Wireshark.pcap
 - **MF**: More Fragments flag
 - **WEP**: WEP encryption enabled
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to open an issue or submit a pull request.
