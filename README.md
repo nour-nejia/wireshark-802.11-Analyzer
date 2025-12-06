@@ -2,20 +2,20 @@
 
 802.11 (Wi-Fi) frame analyzer for Wireshark capture files (.pcap). This project contains three analysis tools to examine different aspects of wireless frames.
 
-## 📋 Description
+## Description
 
 This project provides three Python scripts to analyze Wi-Fi packet captures:
 - **sniffV1**: Column-based display of essential frame information
 - **sniffV2**: Detailed block-based display of each frame
 - **association**: Analysis of association attempts to access points
 
-## 🛠️ Prerequisites
+## Prerequisites
 
 - Python 3.x
 - Scapy (`pip install scapy`)
 - A Wireshark capture file (.pcap) containing 802.11 frames
 
-## 📦 Installation
+## Installation
 
 1. Clone this repository:
 ```bash
@@ -28,7 +28,7 @@ cd wireshark-analyzer-802.11
 pip install scapy
 ```
 
-## 🚀 Usage
+##  Usage
 
 ### sniffV1 - Column Display
 
@@ -90,7 +90,7 @@ Access Point: aa:bb:cc:dd:ee:ff - Attempts: 3
 Total association attempts: 8 for 2 access points 
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wireshark-analyzer-802.11/
@@ -102,7 +102,7 @@ wireshark-analyzer-802.11/
 └── README.md              # This file
 ```
 
-## 🧪 Testing with Example File
+##  Testing with Example File
 
 An example capture file (`Wireshark.pcap`) is provided to test the scripts:
 
@@ -113,7 +113,7 @@ python sniffV2.py Wireshark.pcap
 python association.py Wireshark.pcap
 ```
 
-## 📖 802.11 Frame Information
+## 802.11 Frame Information
 
 ### Analyzed Fields:
 - **Type**: Frame type (Management, Control, Data)
